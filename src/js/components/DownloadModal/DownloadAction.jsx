@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 
 function DownloadAction (props) { 
 const {files, hasMultipleFiles, isGoogleDoc} = props;

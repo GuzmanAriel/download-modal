@@ -1,49 +1,40 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
+import '../../../scss/modal.scss';
 // import { shape, string, bool, object } from "prop-types";
 import { useMediaQuery } from 'react-responsive';
-import { Modal} from "react-modal";
+import  Modal from "react-modal";
 import DownloadSelections from "./DownloadSelections.jsx";
 
-const DownloadInteractionModal = props => {
-  const {dictionary, triggerButton, fromReact, setShowShare} = props;
+const DownloadInteractionModal = (props) => {
+  const {dictionary} = props;
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalTitle, setModalTitle] = useState(dictionary.ModalTitle);
   const [step, setStep] = useState(0);
   const isSmallTabletorMobile = useMediaQuery({ query: '(max-width: 780px)' });
   const [noteMessage, setNoteMessage] = useState(dictionary.DownloadData?.HeaderText)
 
-console.log("download interaction modal");
+console.log('%cmy-react-app/src/components/DownloadModal/DownloadInteractionModal.jsx:15 modalTitle', 'color: #007acc;', modalTitle);
   const openModal = (e, button) => {
     setIsModalOpen(true);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-    //double check html body knows the modal is closed. 
-    if(document.querySelector("body").classList.contains("gv__modal__body--modal-open")){
-      document.querySelector("body").classList.remove("gv__modal__body--modal-open");
-    }
-    
-    if(fromReact){
-      setShowShare(false);
-    }
     
   };
   
-  
-  if(!fromReact){
-    triggerButton?.addEventListener("click", (e) => openModal(e));
-  }
+console.log('%cmy-react-app/src/components/DownloadModal/DownloadInteractionModal.jsx:25 isModalOpen', 'color: #007acc;', isModalOpen);
 
   useEffect(()=>{
-    
+    Modal.setAppElement('body');
     openModal();
 
     
   },[]);
 
 
-  return (<Modal isOpen={isModalOpen}
+  return (
+  <Modal isOpen={isModalOpen}
     bodyOpenClassName={null}
     overlayClassName="gv__modal"
     className="gv__modal-interaction"

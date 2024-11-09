@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import MaterialItem from './components/MaterialItem/MaterialItem';
+import MaterialItem from './js/components/MaterialItem/MaterialItem';
 
 function App() {
   return (
