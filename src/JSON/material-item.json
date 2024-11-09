@@ -1,0 +1,64 @@
+{
+    "ModalTitle": "Share this lesson material",
+    "TooltipText": "Download or save an editable version",
+    "DownloadData": {
+      "Data": {
+        "DownloadSelections": [
+          {
+            "files": [
+              {
+                "title": "Default Version",
+                "url": "/-/media/Climate/PDF/Unit1/CP-111-Opener--What-Does-Climate-Change-Mean-to-You.pdf",
+                "download-title": "What-Does-Climate-Change-Mean-to-You Default Version"
+              }
+            ],
+            "title": "PDF",
+            "icon": "/-/media/OER/Default-Images/Components/Share/pdf.svg",
+            "iconAlt": "",
+            "Key": "pdf"
+          },
+          {
+            "files": [
+              {
+                "title": "Google Doc",
+                "url": "https://docs.google.com/document/d/14QbAaDAuC-1Z_IindW0MMWHAmbWMvh79YgFMFotaW6I/edit#heading=h.gjdgxs",
+                "download-title": "What-Does-Climate-Change-Mean-to-You Google Doc"
+              }
+            ],
+            "title": "Google Doc",
+            "icon": "/-/media/OER/Default-Images/Components/Share/google-doc.svg",
+            "iconAlt": "",
+            "Key": "googledoc"
+          },
+          {
+            "files": [
+              {
+                "title": "Art-of-the-PaleolithicAudio File",
+                "url": "https://cfdc4d69b.lwcdn.com/v-e2663bfa-bf69-4db4-adb6-cbbbf86694e7_original.mp3",
+                "download-title": "Art-of-the-Paleolithic Audio File"
+              }
+            ],
+            "title": "Audio File",
+            "icon": "/-/media/OER/Default-Images/Components/Share/audio.svg",
+            "iconAlt": "",
+            "Key": "audiofile"
+          }
+        ]
+      },
+      "SecondStepHeaderText": "Select a version to download",
+      "ThirdStepHeaderText": "Select a method to download",
+      "ButtonLabel": "Download this PDF",
+      "HeaderText": "Select a file to download",
+      "PromoTitle": "Did you know?",
+      "PromoData": {
+        "IconUrl": "/-/media/OER/Default-Images/Components/DidYouKnows/prom-icon-1.svg",
+        "IconAlt": "Did you know icon",
+        "Text": ""
+      }
+    },
+    "PromoData": null,
+    "PromoTitle": null,
+    "ShowPromoForLoggedInUsersOnly": false,
+    "IsTeacher": false,
+    "MaterialType": "Opener"
+  }
