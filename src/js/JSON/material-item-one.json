@@ -1,0 +1,38 @@
+{
+    "ModalTitle": "Share this lesson material",
+    "TooltipText": "Download or save an editable version",
+    "DownloadData": {
+      "Data": {
+        "DownloadSelections": [
+          {
+            "files": [
+              {
+                "title": "Default Version",
+                "url": "/-/media/Climate/PDF/Unit1/CP-115-Graphic-Biography--Eunice-Foote-Graphic-Biography.pdf",
+                "download-title": "Eunice-Foote-Graphic-Biography Default Version"
+              }
+            ],
+            "title": "PDF",
+            "icon": "/-/media/OER/Default-Images/Components/Share/pdf.svg",
+            "iconAlt": "",
+            "Key": "pdf"
+          }
+        ]
+      },
+      "SecondStepHeaderText": "Select a version to download",
+      "ThirdStepHeaderText": "Select a method to download",
+      "ButtonLabel": "Download this PDF",
+      "HeaderText": "Select a file to download",
+      "PromoTitle": "Did you know?",
+      "PromoData": {
+        "IconUrl": "/-/media/OER/Default-Images/Components/DidYouKnows/prom-icon-1.svg",
+        "IconAlt": "Did you know icon",
+        "Text": ""
+      }
+    },
+    "PromoData": null,
+    "PromoTitle": null,
+    "ShowPromoForLoggedInUsersOnly": false,
+    "IsTeacher": false,
+    "MaterialType": "Article"
+  }

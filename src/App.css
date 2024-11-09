@@ -9,6 +9,7 @@
 
 .gv__container .gv__header {
   max-width: 600px;
+  padding: 0 40px;
 }
 
 .gv__session-container__inner {
