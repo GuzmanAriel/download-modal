@@ -5,13 +5,15 @@ import { useState } from "react";
 
 function MaterialItem(props) {
     const {dictionary} = props;
+    const [openDownload, setOpenDownload] = useState(false);
 
     const handleDownloadClick = () => {
         setOpenDownload(true);
     };
 
-    const [openDownload, setOpenDownload] = useState(false);
+    
     return (
+
         
         <div 
             className="gv__material-item-card__container" 
@@ -55,7 +57,7 @@ function MaterialItem(props) {
                     </div>
                 </div>
             </div>
-            {openDownload && <DownloadInteractionModal dictionary={dictionary}/>}
+            {openDownload && <DownloadInteractionModal dictionary={dictionary} setOpenDownload={setOpenDownload}/>}
         </div>
     );
 }

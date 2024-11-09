@@ -6,7 +6,7 @@ import  Modal from "react-modal";
 import DownloadSelections from "./DownloadSelections.jsx";
 
 const DownloadInteractionModal = (props) => {
-  const {dictionary} = props;
+  const {dictionary, setOpenDownload} = props;
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalTitle, setModalTitle] = useState(dictionary.ModalTitle);
   const [step, setStep] = useState(0);
@@ -20,7 +20,7 @@ console.log('%cmy-react-app/src/components/DownloadModal/DownloadInteractionModa
 
   const closeModal = () => {
     setIsModalOpen(false);
-    
+    setOpenDownload(false);
   };
   
 console.log('%cmy-react-app/src/components/DownloadModal/DownloadInteractionModal.jsx:25 isModalOpen', 'color: #007acc;', isModalOpen);

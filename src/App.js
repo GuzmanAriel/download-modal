@@ -10,7 +10,8 @@ function App() {
         <div className="gv__header">
           <h1>Download Modal</h1>
           <p>This is a download modal. Once you click the icon, the modal will appear. 
-            It will take the user through a series of steps dependant on what is present in the JSON. The JSON is set through what authors input through Sitecore.</p>
+            It will take the user through a series of steps dependant on what is present in the JSON. The JSON is set through what authors have input through Sitecore. 
+            Although this example is not set through Sitecore, the JSON is set up the same way.</p>
         </div>
         <Container/>
       </div>   
